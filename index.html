@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contabilidade - Talita D'avila</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="./imagens/talita-logo.png"
+          alt="Logotipo Talita D'avila Contabilidade"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="titulo">
+      <div class="titulo-content">
+        <h1>
+          Soluções Contábeis Personalizadas para Você e para o seu Negócio
+        </h1>
+        <p id="titulo">
+          Simplifique sua vida, maximize seus lucros e tenha mais tempo para o
+          que importa com a nossa assessoria contábil completa e personalizada.
+        </p>
+        <a href="#servicos" class="btn">Saiba Mais</a>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre Talita D'avila</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
+        Maecenas sed diam eget risus varius blandit sit amet non magna.
+      </p>
+      <img src="imagem-sobre.jpg" alt="Foto de Talita D'avila" />
+    </section>
+
+    <section id="servicos">
+      <h2>Nossos Serviços</h2>
+      <div class="servicos-grid">
+        <div class="servico">
+          <img
+            src="./imagens/imposto.jpg"
+            alt="Foto de cédulas de dinheiro e moedas."
+          />
+          <h3>Declaração do Imposto de Renda</h3>
+          <p class="descricao">
+            Oferecemos um serviço completo de declaração do Imposto de Renda
+            para pessoas físicas, desde a organização dos documentos até a
+            entrega da declaração no prazo. Também oferecemos serviços de
+            consultoria para auxiliar na escolha da melhor forma de tributação e
+            para tirar dúvidas sobre a legislação do Imposto de Renda.
+          </p>
+        </div>
+        <div class="servico">
+          <img
+            src="./imagens/divida.jpg"
+            alt="Foto de uma pessoa segurando vários cartões de crédito."
+          />
+          <h3>Regularização de Dívidas</h3>
+          <p class="descricao">
+            Oferecemos serviços de regularização de dívidas para auxiliar
+            pessoas físicas a quitarem suas dívidas e melhorar sua saúde
+            financeira. Negociamos com seus credores para reduzir o valor das
+            dívidas ou para parcelá-las em condições mais favoráveis. Também
+            oferecemos orientação para que você evite contrair novas dívidas no
+            futuro.
+          </p>
+        </div>
+        <div class="servico">
+          <img
+            src="./imagens/empresa.jpg"
+            alt="Foto de uma equipe dando-se os braços"
+          />
+          <h3>Contabilidade para Empresas</h3>
+          <p class="descricao">
+            Oferecemos um serviço completo de contabilidade para empresas de
+            todos os portes, desde a abertura da empresa até a apuração de
+            impostos e a entrega de obrigações fiscais. Também oferecemos
+            serviços de consultoria contábil para auxiliar na tomada de decisões
+            estratégicas.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Fale Conosco</h2>
+      <div class="contato-container">
+        <div class="contato-info">
+          <h3>Talita D'avila</h3>
+          <p class="informacao">São Paulo - Brasil</p>
+          <p class="informacao">Telefone: 011 94722-8452</p>
+          <p class="informacao">E-mail: talitadavila@yahoo.com.br</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747.3076883623094!2d-46.63429538499183!3d-23.55052028465612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58e3116b8835%3A0xb2b070c606501e6!2sR.+Dr.+Martins+Ferreira%2C+155%2C+Vila+Mariana%2C+S%C3%A3o+Paulo%2C+SP+04015-003!5e0!3m2!1spt-BR!2sbr!4v1694390410406!5m2!1spt-BR!2sbr"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="contato-form">
+          <form action="processa_form.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Desenvolvido com carinho por Thais D'avilla</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
