@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -39,27 +40,32 @@ nav a {
 }
 
 .titulo {
+    height: 80vh;
     background-image: url("./imagens/contabilidade.jpg");
     background-size: cover;
     background-position: center;
     color: #fff;
     padding: 100px 0;
     text-align: center;
+   
 }
 
 .titulo-content {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     border-radius: 5px;
+    margin-top: 8%;
 }
 
 #titulo {
     padding: 15px;
+    font-weight: 600;
 }
 
 .btn {
     background-color: #064b34;
     color: #fff;
+    font-weight: 500;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -75,8 +81,35 @@ section {
 
 #sobre {
     background-color: #064b34;
+    height: 95vh;
+}
+h2 {
+    padding: 0.5%;
+    font-size: 2.5em;
+    
+}
+.perfil{
+    padding: 0.2%;
+    object-fit: cover;
+    width: 280px;
+    height: 380px;
+    border-radius: 8%;
+    border: solid 1px orange;
+}
+.p-sobre{
+    padding: 0.5%;
+    font-size: 1.2em;
+    font-weight: 800;
+    
+    width: 50vw;
+    margin: 0 auto;
 }
 
+#btn-sobre {
+    background-color:  rgba(0, 0, 0, 0.5);
+    border: solid 1px black;
+    margin-top: 3%;
+}
 .servicos-grid {
     height: 50vh;
     background-color: rgba(0, 0, 0, 0.5);
