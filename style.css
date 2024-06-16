@@ -110,26 +110,40 @@ h2 {
     border: solid 1px black;
     margin-top: 3%;
 }
-.servicos-grid {
+#servicos{
+    background-color:rgba(0, 0, 0, 0.5);
+    
+}
+.servicos-grid, .video {
     height: 50vh;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #064b34;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
-    margin: 20px 10px;
+    margin: 1% 2%;
+    color: #f4f4f4;
+   
 }
 
-.servico img {
+.servico img, video {
     width: 400px;
     height: 300px;
     border-radius: 10px;
+    border: inset #faa307;
     object-fit: cover;
-    padding: 8px;
+    padding: 4px;
+    margin-top: 6px;
+    
 }
 .descricao {
     padding: 8px;
+    
 }
-
+.video{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .contato-container {
     background-color: rgba(0, 0, 0, 0.5);
     width: 98vw;
@@ -182,3 +196,4 @@ footer {
     padding: 15px 0;
     text-align: center;
 }
+
