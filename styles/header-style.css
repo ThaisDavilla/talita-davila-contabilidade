@@ -41,3 +41,23 @@
   li:hover {
     opacity: 0.6;
   }
+
+  @media only screen and (max-width: 900px) {
+    header {
+      
+      height: 25vh;
+      
+      
+    }
+
+    nav{
+      font-size: 1.2em;
+      margin-left: -8%;
+      margin-bottom: 4%;
+    }
+
+    header, li{
+      margin-top: 6%;
+    }
+
+  }

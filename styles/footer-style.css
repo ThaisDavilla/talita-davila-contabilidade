@@ -4,19 +4,37 @@ footer {
   color: #fff;
   padding: 15px 0;
   text-align: center;
+  
 }
 
 footer h4{
   padding: 4px;
 }
+footer p{
+  padding: 8px;
+}
 
 .redes{ 
-  padding: 12px;
+  padding: 14px;
 }
 .icon {
   margin: -4px 8px;
   animation: pulsar 1s infinite alternate;
 }
+
+.devfront{
+  display: flex;
+  flex-direction: column;
+}
+.dev{
+  width: 8vw;
+  height: 8vh;
+  object-fit: cover;
+ 
+}
+
+
+
 
 @keyframes pulsar {
   0% {
@@ -26,4 +44,12 @@ footer h4{
   100% {
     transform: scale(1.2);
   }
+}
+
+@media only screen and (max-width: 900px){
+  .dev {
+    width: 42vw;
+    height: 12vw;
+  }
+
 }
