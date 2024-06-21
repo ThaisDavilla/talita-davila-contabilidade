@@ -1,189 +1,183 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Contabilidade - Talita D'avila</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <img
-          src="./imagens/talita-logo.png"
-          alt="Logotipo Talita D'avila Contabilidade"
-        />
-      </div>
-      <nav>
-        <ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#servico">Serviços</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </header>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
 
-    <section class="titulo">
-      <div class="titulo-content">
-        <h1>
-          Soluções Contábeis Personalizadas para Você e para o seu Negócio
-        </h1>
-        <p id="titulo">
-          Simplifique sua vida, maximize seus lucros e tenha mais tempo para o
-          que importa com a nossa assessoria contábil completa e personalizada.
+  <link rel="stylesheet" href="./styles/header-style.css" />
+  <link rel="stylesheet" href="./styles/main-style.css">
+  <link rel="stylesheet" href="./styles/footer-style.css">
+
+  <title>Contabilidade - Talita D'avila</title>
+
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="./assets/imagens/talita-logo.png" alt="Logotipo Talita D'avila Contabilidade" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servico">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="titulo">
+    <div class="titulo-content">
+      <h1>
+        Soluções Contábeis Personalizadas para Você e para o seu Negócio
+      </h1>
+      <p id="titulo">
+        Simplifique sua vida, maximize seus lucros e tenha mais tempo para o
+        que importa com a nossa assessoria contábil completa e personalizada.
+      </p>
+      <a href="#servico" class="btn">Consulte nossos serviços</a>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <h2>Talita D'avila</h2>
+    <img class="perfil" src="./assets/imagens/talita-davila.jpg" alt="Foto de Talita D'avila" />
+    <p class="p-sobre">
+      Apaixonada por ajudar empresas a prosperarem e alcançarem seus
+      objetivos.
+    </p>
+    <p class="p-sobre">
+      Contadora experiente e dedicada, com mais de 7 anos de experiência na
+      área. Com vasto conhecimento em contabilidade, fiscalidade,
+      controladoria e gestão financeira, sempre atualizada sobre as últimas
+      mudanças na legislação.
+    </p>
+    <p class="p-sobre">
+      Se você está procurando uma contadora experiente, dedicada e confiável,
+      entre em contato comigo. Terei prazer em discutir suas necessidades e
+      como posso ajudá-lo a alcançar seus objetivos.
+    </p>
+    <a href="#servico" class="btn" id="btn-sobre">Consulte nossos serviços</a>
+  </section>
+
+  <section id="servicos">
+    <h2>Nossos Serviços</h2>
+    <div id="servico" class="servicos-grid">
+      <div class="servico">
+        <img src="./assets/imagens/imposto.jpg" alt="Foto de cédulas de dinheiro e moedas." />
+        <h3>Declaração do Imposto de Renda</h3>
+        <p class="descricao">
+          Oferecemos um serviço completo de declaração do Imposto de Renda
+          para pessoas físicas, desde a organização dos documentos até a
+          entrega da declaração no prazo. Também oferecemos serviços de
+          consultoria para auxiliar na escolha da melhor forma de tributação e
+          para tirar dúvidas sobre a legislação do Imposto de Renda.
         </p>
-        <a href="#servico" class="btn">Consulte nossos serviços</a>
       </div>
-    </section>
-
-    <section id="sobre">
-      <h2>Talita D'avila</h2>
-      <img
-        class="perfil"
-        src="./imagens/talita-davila.jpg"
-        alt="Foto de Talita D'avila"
-      />
-      <p class="p-sobre">
-        Apaixonada por ajudar empresas a prosperarem e alcançarem seus
-        objetivos.
-      </p>
-      <p class="p-sobre">
-        Contadora experiente e dedicada, com mais de 7 anos de experiência na
-        área. Com vasto conhecimento em contabilidade, fiscalidade,
-        controladoria e gestão financeira, sempre atualizada sobre as últimas
-        mudanças na legislação.
-      </p>
-      <p class="p-sobre">
-        Se você está procurando uma contadora experiente, dedicada e confiável,
-        entre em contato comigo. Terei prazer em discutir suas necessidades e
-        como posso ajudá-lo a alcançar seus objetivos.
-      </p>
-      <a href="#servico" class="btn" id="btn-sobre"
-        >Consulte nossos serviços</a
-      >
-    </section>
-
-    <section id="servicos">
-      <h2>Nossos Serviços</h2>
-      <div id="servico" class="servicos-grid">
-        <div class="servico">
-          <img
-            src="./imagens/imposto.jpg"
-            alt="Foto de cédulas de dinheiro e moedas."
-          />
-          <h3>Declaração do Imposto de Renda</h3>
-          <p class="descricao">
-            Oferecemos um serviço completo de declaração do Imposto de Renda
-            para pessoas físicas, desde a organização dos documentos até a
-            entrega da declaração no prazo. Também oferecemos serviços de
-            consultoria para auxiliar na escolha da melhor forma de tributação e
-            para tirar dúvidas sobre a legislação do Imposto de Renda.
-          </p>
-        </div>
-        <div class="servico">
-          <img
-            src="./imagens/divida.jpg"
-            alt="Foto de uma pessoa segurando vários cartões de crédito."
-          />
-          <h3>Regularização de Dívidas</h3>
-          <p class="descricao">
-            Oferecemos serviços de regularização de dívidas para auxiliar
-            pessoas físicas a quitarem suas dívidas e melhorar sua saúde
-            financeira. Negociamos com seus credores para reduzir o valor das
-            dívidas ou para parcelá-las em condições mais favoráveis. Também
-            oferecemos orientação para que você evite contrair novas dívidas no
-            futuro.
-          </p>
-        </div>
-        <div class="servico">
-          <img
-            src="./imagens/empresa.jpg"
-            alt="Foto de uma equipe dando-se os braços"
-          />
-          <h3>Contabilidade para Empresas</h3>
-          <p class="descricao">
-            Oferecemos um serviço completo de contabilidade para empresas de
-            todos os portes, desde a abertura da empresa até a apuração de
-            impostos e a entrega de obrigações fiscais. Também oferecemos
-            serviços de consultoria contábil para auxiliar na tomada de decisões
-            estratégicas.
-          </p>
-        </div>
+      <div class="servico">
+        <img src="./assets/imagens/divida.jpg" alt="Foto de uma pessoa segurando vários cartões de crédito." />
+        <h3>Regularização de Dívidas</h3>
+        <p class="descricao">
+          Oferecemos serviços de regularização de dívidas para auxiliar
+          pessoas físicas a quitarem suas dívidas e melhorar sua saúde
+          financeira. Negociamos com seus credores para reduzir o valor das
+          dívidas ou para parcelá-las em condições mais favoráveis. Também
+          oferecemos orientação para que você evite contrair novas dívidas no
+          futuro.
+        </p>
       </div>
-      <div class="video">
-        <video controls src="./videos/4053047-uhd_3840_2160_25fps.mp4"></video>
-        <div>
-          <p>Reuniões e consultas online para o seu conforto;</p>
-          <p>Uma equipe qualificada e apaixonada pelo que faz</p>
-          <p>à sua disposição;</p>
-          <p>Entre em contato conosco e conheça todos os nossos serviços!</p>
-          <a href="#contato" class="btn" id="btn-sobre"
-          >Consulte sobre outros serviços</a
-        >
-        </div>
-        <video  controls src="./videos/6774633-uhd_3840_2160_30fps.mp4"></video>
-        
+      <div class="servico">
+        <img src="./assets/imagens/empresa.jpg" alt="Foto de uma equipe dando-se os braços" />
+        <h3>Contabilidade para Empresas</h3>
+        <p class="descricao">
+          Oferecemos um serviço completo de contabilidade para empresas de
+          todos os portes, desde a abertura da empresa até a apuração de
+          impostos e a entrega de obrigações fiscais. Também oferecemos
+          serviços de consultoria contábil para auxiliar na tomada de decisões
+          estratégicas.
+        </p>
       </div>
-      
-    </section>
-    <section id="contato">
-      <h2>Fale Conosco</h2>
-      <div class="contato-container">
-        <div class="contato-info">
-          <h3>Talita D'avila</h3>
-          <p class="informacao">São Paulo - Brasil</p>
-          <p class="informacao">Telefone: 011 90022-8452</p>
-          <p class="informacao">E-mail: contabilidadetalita@gmail.com</p>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747.3076883623094!2d-46.63429538499183!3d-23.55052028465612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58e3116b8835%3A0xb2b070c606501e6!2sR.+Dr.+Martins+Ferreira%2C+155%2C+Vila+Mariana%2C+S%C3%A3o+Paulo%2C+SP+04015-003!5e0!3m2!1spt-BR!2sbr!4v1694390410406!5m2!1spt-BR!2sbr"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
-        </div>
-        <div class="contato-form">
-          <h3>Deixe-nos sua dúvida e entraremos em contato </h3>
-          <form action="" method="post">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required />
-
-            <label for="phone">Celular/ Whats app: </label>
-            <input type="tel" id="phone" name="phone" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem"></textarea>
-
-            <button type="submit">Enviar</button>
-          </form>
-        </div>
+    </div>
+    <div class="video">
+      <video controls src="./assets/videos/4053047-uhd_3840_2160_25fps.mp4"></video>
+      <div>
+        <p>Reuniões e consultas online para o seu conforto;</p>
+        <p>Uma equipe qualificada e apaixonada pelo que faz</p>
+        <p>à sua disposição;</p>
+        <p>Entre em contato conosco e conheça todos os nossos serviços!</p>
+        <a href="#contato" class="btn" id="btn-sobre">Consulte sobre outros serviços</a>
       </div>
-    </section>
+      <video controls src="./assets/videos/6774633-uhd_3840_2160_30fps.mp4"></video>
 
-    <footer>
-      <p class="footer__p">
-        Feito com
-        <img class="icon" src="./imagens/heart.svg" alt="Coração rosa pulsando indicando amor." /> por Thais
-        D'Ávilla
-      </p>
-      <p>© copyright</p>
-    </footer>
+    </div>
 
-    <script src="script.js"></script>
-  </body>
+  </section>
+  <section id="contato">
+    <h2>Fale Conosco</h2>
+    <div class="contato-container">
+      <div class="contato-info">
+        <h3>Talita D'avila</h3>
+        <p class="informacao">São Paulo - Brasil</p>
+        <p class="informacao">Telefone: 011 90022-8452</p>
+        <p class="informacao">E-mail: contabilidadetalita@gmail.com</p>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747.3076883623094!2d-46.63429538499183!3d-23.55052028465612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce58e3116b8835%3A0xb2b070c606501e6!2sR.+Dr.+Martins+Ferreira%2C+155%2C+Vila+Mariana%2C+S%C3%A3o+Paulo%2C+SP+04015-003!5e0!3m2!1spt-BR!2sbr!4v1694390410406!5m2!1spt-BR!2sbr"
+          width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="contato-form">
+        <h3>Deixe-nos sua dúvida e entraremos em contato </h3>
+        <form action="" method="post">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required />
+
+          <label for="phone">Celular/ Whats app: </label>
+          <input type="tel" id="phone" name="phone" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem"></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <footer>
+
+    <h4>Siga-nos nas redes sociais!</h4>
+    <div class="redes">
+      <a href="https://www.instagram.com/">
+        <img src="./assets/icons/instagram.png" alt="Logotipo do Instagram">
+      </a>
+
+      <a href="https://www.tiktok.com/">
+        <img src="./assets/icons/tik-tok.png" alt="Logotipo do Tik Tok">
+      </a>
+
+      <a href="https://br.linkedin.com/">
+        <img src="./assets/icons/linkedin.png" alt="Logotipo do Linkedin">
+      </a>
+    </div>
+
+    <p class="footer__p">
+      Feito com
+      <img class="icon" src="./assets/imagens/heart.svg" alt="Coração rosa pulsando indicando amor." /> por Thais
+      D'Ávilla
+    </p>
+    <p>© copyright</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
-  </body>
-</html>
+</body>

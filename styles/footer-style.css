@@ -1,0 +1,29 @@
+footer {
+  background-color: #333;
+  opacity: 0.85;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+footer h4{
+  padding: 4px;
+}
+
+.redes{ 
+  padding: 12px;
+}
+.icon {
+  margin: -4px 8px;
+  animation: pulsar 1s infinite alternate;
+}
+
+@keyframes pulsar {
+  0% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
