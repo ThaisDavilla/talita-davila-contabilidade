@@ -28,7 +28,7 @@ footer p{
 }
 .dev{
   width: 8vw;
-  height: 8vh;
+  height: 4vh;
   object-fit: cover;
  
 }
@@ -48,7 +48,7 @@ footer p{
 
 @media only screen and (max-width: 900px){
   .dev {
-    width: 42vw;
+    width: 50vw;
     height: 12vw;
   }
 
