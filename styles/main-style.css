@@ -111,11 +111,10 @@ video {
   align-items: center;
 }
 
-.video p{
+.video p {
   word-spacing: 3px;
   line-height: 25px;
-  font-size: 1.05em;  
-
+  font-size: 1.05em;
 }
 .contato-container {
   background-color: rgba(0, 0, 0, 0.5);
@@ -252,38 +251,37 @@ button:hover {
     width: 95vw;
     flex-direction: column;
     align-items: flex-start;
-   
   }
-  iframe{
+  iframe {
     width: 85vw;
     height: 30vh;
   }
-  
- #contato h3, button{
-  margin-top: 15%;
-  margin-left: 30%;
-  width: 30vh;
- }
-  .contato-container input, textarea {
-    width: 80vw;
-    
+
+  #contato h3,
+  button {
+    margin-top: 15%;
+    margin-left: 30%;
+    width: 30vh;
   }
-  
-  
+  .contato-container input,
+  textarea {
+    width: 80vw;
+  }
+
   .contato-info {
     width: 40%;
     text-align: left;
   }
-  
+
   .informacao {
     padding: 5px;
   }
-  
+
   .contato-form {
     width: 40%;
     text-align: left;
   }
-  
+
   .contato-form form {
     display: flex;
     flex-direction: column;
@@ -291,11 +289,11 @@ button:hover {
   .contato-form h3 {
     margin-bottom: 5%;
   }
-  
+
   label {
     padding: 12px;
   }
-  
+
   .contato-form input,
   .contato-form textarea {
     padding: 10px;
@@ -303,7 +301,7 @@ button:hover {
     border: 1px solid #ccc;
     border-radius: 5px;
   }
-  
+
   .contato-form button {
     background-color: #064b34;
     color: #fff;
@@ -318,6 +316,4 @@ button:hover {
     color: black;
     opacity: 0.6;
   }
-  
-
 }
