@@ -1,14 +1,26 @@
-let slideIndex = 0;
 const carouselInner = document.querySelector('.carousel-inner');
 const numImages = carouselInner.children.length;
+let slideIndex = 0;
+const slideWidth = carouselInner.offsetWidth;
 
 function showSlides() {
-  slideIndex = (slideIndex + 1) % numImages;
-  const translateX = -slideIndex * 100 / numImages + '%'; // Calcula o deslocamento
-  carouselInner.style.transform = `translateX(${translateX})`;
+  slideIndex = (slideIndex + 1) % (numImages -1);
+  const translateX = -slideIndex * slideWidth;
+  carouselInner.style.transform = `translateX(${translateX}px)`;
 }
 
-setInterval(showSlides, 3000);
+
+function smoothTransition() {
+  const targetTranslate = -slideIndex * slideWidth;
+  carouselInner.style.transform = `translateX(${targetTranslate}px)`;
+}
+
+
+
+setInterval(() => {
+  showSlides();
+  smoothTransition(); 
+}, 3000);
 
 
 const cards = document.querySelectorAll('.card img');
