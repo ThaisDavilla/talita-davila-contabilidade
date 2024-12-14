@@ -51,7 +51,8 @@ p {
   flex-shrink: 0;
 }
 
-.p-card, .p-video {
+.p-card,
+.p-video {
   color: #edf6f9;
   font-size: 1.5em;
   padding: 12px;
@@ -61,7 +62,6 @@ p {
 .cards-container {
   height: 50vh;
   display: flex;
-
   justify-content: space-around;
   margin: 10px;
 }
@@ -83,11 +83,11 @@ p {
   border: 1px solid #faa307;
 }
 
-#p-card{
+#p-card {
   margin-left: 38%;
 }
 
-.p-video{
+.p-video {
   margin-top: 3%;
 }
 
@@ -110,7 +110,7 @@ p {
   margin-top: 2%;
   margin-left: 50%;
   cursor: pointer;
-  transition: transform 0.3s; /* Animação hover */
+  transition: transform 0.3s;
 }
 
 .animated-button:hover {
@@ -153,11 +153,7 @@ p {
   cursor: pointer;
 }
 
-a{
-  text-decoration: none;
-}
-
-footer{
+footer {
   color: #edf6f9;
   width: 30vw;
   margin: 1.5%;
@@ -167,4 +163,54 @@ footer{
   justify-content: center;
   align-items: center;
   font-size: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  h3 {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+  .carousel {
+    height: 50vh;
+  }
+  .p-card,
+  .p-video {
+    font-size: 1em;
+    margin-left: 10%;
+  }
+  .cards-container {
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .card {
+    width: 90vw;
+  }
+
+  #p-card {
+    margin-left: 10%;
+  }
+  .p-video {
+    margin-left: 5%;
+  }
+  .video-container {
+    margin-left: 4%;
+    width: 100%;
+    margin-top: 2%;
+  }
+  iframe {
+    width: 90%;
+    height: 30vh;
+  }
+  .animated-button {
+    margin-left: 35%;
+  }
+  footer {
+    width: 50vw;
+    margin: 1%;
+    margin-left: 25%;
+  }
 }
