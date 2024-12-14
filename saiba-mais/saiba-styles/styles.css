@@ -193,6 +193,12 @@ footer {
   #p-card {
     margin-left: 10%;
   }
+
+  .modal-content {
+    color: #fefefe;
+    padding: 8px;
+    width: 90%;
+  }
   .p-video {
     margin-left: 5%;
   }
