@@ -44,3 +44,7 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+function voltar() {
+  window.location.href = "../../index.html"; 
+}
