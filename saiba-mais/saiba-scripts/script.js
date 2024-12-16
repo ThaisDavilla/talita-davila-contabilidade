@@ -45,6 +45,3 @@ window.onclick = function(event) {
   }
 }
 
-function voltar() {
-  window.location.href = "../../index.html"; 
-}
