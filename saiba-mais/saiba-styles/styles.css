@@ -97,7 +97,8 @@ p {
   margin-top: 2%;
 }
 
-.animated-button {
+.btn-voltar {
+  text-decoration: none;
   background-color: #4caf50;
   border: none;
   color: white;
@@ -113,7 +114,7 @@ p {
   transition: transform 0.3s;
 }
 
-.animated-button:hover {
+.btn-voltar:hover {
   transform: scale(1.1);
 }
 
