@@ -1,4 +1,4 @@
-# **Entrega final da trilha 01 do curso Descodificadas**
+# **Entrega final da trilha 01 do Programa Descodificadas**
 
 ### Desenvolver um site seguindo os critérios abaixo:
 
@@ -9,4 +9,21 @@
 
 ### Vídeo apresentação
 [Clique aqui para ver a apresentação do trabalho](https://youtu.be/W65ssKM7ZrQ)
+
+
+# **Entrega final da trilha 02 do Programa Descodificadas**
+
+### Desenvolver um site seguindo os critérios abaixo:
+
+![trilha 2](https://github.com/user-attachments/assets/bbdeb48f-3adf-4d2b-a8d0-931801f47ae4)
+
+### Resultado da página:
+
+
+
+### Vídeo apresentação
+
+[Clique aqui para ver o vídeo apresentação da trilha 02](https://youtu.be/EGtJxjg3-A8)
+
+
 
