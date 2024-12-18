@@ -8,7 +8,7 @@
 [trilha-01-descodificadas.webm](https://github.com/user-attachments/assets/4a77a8e0-f109-4e69-b3e6-f7afb02b13fc)
 
 ### Vídeo apresentação
-[Clique aqui para ver a apresentação do trabalho](https://youtu.be/W65ssKM7ZrQ)
+[Clique aqui para ver o vídeo apresentação da trilha 01](https://youtu.be/W65ssKM7ZrQ)
 
 
 # **Entrega final da trilha 02 do Programa Descodificadas**
@@ -18,6 +18,10 @@
 ![trilha 2](https://github.com/user-attachments/assets/bbdeb48f-3adf-4d2b-a8d0-931801f47ae4)
 
 ### Resultado da página:
+
+
+
+https://github.com/user-attachments/assets/dd2f990e-18f9-4e87-b439-7e069880cf4c
 
 
 
